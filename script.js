@@ -13,9 +13,10 @@ const notaCinco = parseFloat(readlineSync.question('Nota 5: '));
 
 const media = (notaUm+notaDois+notaTres+notaQuatro+notaCinco)/5;
 
-if(media >= 7)
+if(media >= 7) {
     console.log("Parabéns! Sua média foi " + media.toFixed(2) + " e você está aprovada!"); //exemplo 1 de concatenação
-else if ( media < 5)
+}else if ( media < 5) {
     console.log(`Infelizmente, sua média foi ${media.toFixed(2)} e você está reprovada. Venha aos nossos plantões e poderemos te ajudar a se preparar para o próximo ano!`); //exemplo 2 de concatenação
-else
+}else{
     console.log(`Sua média foi ${media.toFixed(2)} e você está de recuperação. Venha aos nossos plantões e poderemos te ajudar!`);
+}
