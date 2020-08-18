@@ -1,8 +1,5 @@
 console.log("CÁLCULO DA MÉDIA")
 
-var Omega = '\u03A9'
-console.log(Omega)
-
 const instrucao = ('Digite suas notas abaixo ↓')
 console.log(instrucao)
 
